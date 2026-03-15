@@ -1,0 +1,17 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# IDE 设置
+.idea/
+.vscode/
+
+# 环境变量 (极其重要，包含 API Key)
+.env
+
+# 向量数据库数据 (本地文件，不需要上传)
+chroma_db/
+
+# 虚拟环境 (千万别上传)
+.venv/
+venv/
