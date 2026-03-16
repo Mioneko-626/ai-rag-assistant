@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - SILICONFLOW_API_KEY=sk-avtcwaybmimcedmndjwlfhapikhowiydoiasyxfymmzvlnkh
+    volumes:
+      - .:/app  # 把当前目录(.)映射到容器里的 /app 目录
